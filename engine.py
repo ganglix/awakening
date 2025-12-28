@@ -112,6 +112,14 @@ def list_topics(questions):
     return sorted({q["topic"] for q in questions})
 
 
+def health_bar(current, maximum, width=10):
+    if maximum <= 0:
+        maximum = 1
+    filled = int(round((current / maximum) * width))
+    filled = max(0, min(width, filled))
+    return "♥" * filled + "·" * (width - filled)
+
+
 def ask_question(question):
     print(question["prompt"])
     for idx, choice in enumerate(question["choices"], 1):
@@ -226,6 +234,7 @@ def talk_in_town(player, quests_data):
 
 def run_battle(player, questions):
     beastie = Beastie.random_beastie(player.level)
+    max_hp = beastie.hp
     print(BATTLE_ART["encounter"].format(name=beastie.name, hp=beastie.hp))
     while beastie.hp > 0 and player.hp > 0:
         qset = pick_questions(questions, topic=beastie.topic)
@@ -234,14 +243,16 @@ def run_battle(player, questions):
             return
         correct = ask_question(qset[0])
         if correct:
-            beastie.hp -= 3
+            beastie.hp = max(0, beastie.hp - 3)
             award_kp(player, 4)
             print(BATTLE_ART["hit"])
             print("KP +4.")
         else:
-            player.hp -= 2
+            player.hp = max(0, player.hp - 2)
             print(BATTLE_ART["miss"])
             print("You are hit! -2 HP.")
+        hp_bar = health_bar(beastie.hp, max_hp)
+        print(f"{beastie.name} HP {beastie.hp}/{max_hp} {hp_bar}")
         update_quest_progress(player, qset[0]["topic"], correct)
     if player.hp <= 0:
         print(BATTLE_ART["defeat"])
