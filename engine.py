@@ -176,7 +176,13 @@ def show_quests(player):
 
 
 def show_status(player):
-    lines = [player.describe()]
+    avatar = [
+        "  O  ",
+        " /|\\ ",
+        " / \\ ",
+    ]
+    badge = f"[Lv {player.level}]"
+    lines = avatar + [badge, player.describe()]
     if player.active_quests:
         lines.append("Active quests:")
         lines.extend(quest.describe() for quest in player.active_quests)
