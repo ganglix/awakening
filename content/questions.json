@@ -348,5 +348,173 @@
     "prompt": "How many centimeters are in 1 meter?",
     "choices": ["10", "50", "100", "1000"],
     "answer": "100"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 2,
+    "prompt": "What is 1/4 + 1/4?",
+    "choices": ["1/2", "2/4", "1/4", "3/4"],
+    "answer": "1/2"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 3,
+    "prompt": "Which is equal to 2/5?",
+    "choices": ["4/10", "3/10", "1/5", "5/10"],
+    "answer": "4/10"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 1,
+    "prompt": "What is -1 + 6?",
+    "choices": ["-7", "5", "-5", "7"],
+    "answer": "5"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 3,
+    "prompt": "What is -9 + (-2)?",
+    "choices": ["-11", "11", "-7", "7"],
+    "answer": "-11"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 2,
+    "prompt": "A pull that slows motion is:",
+    "choices": ["gravity", "friction", "mass", "speed"],
+    "answer": "friction"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 3,
+    "prompt": "An unbalanced force causes an object to:",
+    "choices": ["stay still", "change motion", "lose mass", "stop gravity"],
+    "answer": "change motion"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 2,
+    "prompt": "What is 47 + 26?",
+    "choices": ["63", "73", "83", "93"],
+    "answer": "73"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 3,
+    "prompt": "What is 208 + 95?",
+    "choices": ["293", "303", "313", "403"],
+    "answer": "303"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 2,
+    "prompt": "What is 90 - 47?",
+    "choices": ["33", "43", "53", "63"],
+    "answer": "43"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 3,
+    "prompt": "What is 500 - 275?",
+    "choices": ["215", "225", "235", "245"],
+    "answer": "225"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 2,
+    "prompt": "What is 6 x 9?",
+    "choices": ["45", "48", "54", "64"],
+    "answer": "54"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 3,
+    "prompt": "What is 12 x 8?",
+    "choices": ["84", "88", "96", "104"],
+    "answer": "96"
+  },
+  {
+    "topic": "division",
+    "difficulty": 1,
+    "prompt": "What is 15 divided by 3?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "topic": "division",
+    "difficulty": 3,
+    "prompt": "What is 64 divided by 8?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 2,
+    "prompt": "In 9,305, what is the value of the 3?",
+    "choices": ["3", "30", "300", "3000"],
+    "answer": "300"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 3,
+    "prompt": "Which number has a 7 in the thousands place?",
+    "choices": ["7,204", "2,704", "27,040", "702"],
+    "answer": "7,204"
+  },
+  {
+    "topic": "time",
+    "difficulty": 1,
+    "prompt": "What time is 1 hour after 4:00?",
+    "choices": ["4:30", "5:00", "5:30", "6:00"],
+    "answer": "5:00"
+  },
+  {
+    "topic": "time",
+    "difficulty": 3,
+    "prompt": "What time is 20 minutes after 7:40?",
+    "choices": ["7:50", "8:00", "8:10", "8:20"],
+    "answer": "8:00"
+  },
+  {
+    "topic": "money",
+    "difficulty": 1,
+    "prompt": "Which coin is worth 10 cents?",
+    "choices": ["penny", "nickel", "dime", "quarter"],
+    "answer": "dime"
+  },
+  {
+    "topic": "money",
+    "difficulty": 3,
+    "prompt": "You buy a toy for $2.35 with $5.00. Change is:",
+    "choices": ["$2.65", "$2.75", "$2.85", "$3.65"],
+    "answer": "$2.65"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 2,
+    "prompt": "A shape with 6 sides is a:",
+    "choices": ["hexagon", "pentagon", "triangle", "octagon"],
+    "answer": "hexagon"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 3,
+    "prompt": "How many angles does a triangle have?",
+    "choices": ["2", "3", "4", "6"],
+    "answer": "3"
+  },
+  {
+    "topic": "measurement",
+    "difficulty": 1,
+    "prompt": "Which unit is used to measure weight?",
+    "choices": ["grams", "meters", "seconds", "liters"],
+    "answer": "grams"
+  },
+  {
+    "topic": "measurement",
+    "difficulty": 2,
+    "prompt": "Which is longer?",
+    "choices": ["1 meter", "50 centimeters", "10 centimeters", "5 centimeters"],
+    "answer": "1 meter"
   }
 ]
