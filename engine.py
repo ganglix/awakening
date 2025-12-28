@@ -66,7 +66,9 @@ def level_from_kp(kp):
         return 2
     if kp < 90:
         return 3
-    return 4
+    if kp < 140:
+        return 4
+    return 5
 
 
 def on_level_up(player, old_level):

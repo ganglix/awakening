@@ -82,8 +82,9 @@ class Beastie:
             {"name": "Gemark", "hp": 10, "topic": "geometry", "difficulty": 2},
             {"name": "Tapespine", "hp": 10, "topic": "measurement", "difficulty": 2},
             {"name": "Stormwing", "hp": 12, "topic": "forces", "difficulty": 3},
+            {"name": "Nightflare", "hp": 16, "topic": "forces", "difficulty": 5},
         ]
-        max_difficulty = min(level, 3)
+        max_difficulty = min(level, 5)
         options = [entry for entry in pool if entry["difficulty"] <= max_difficulty]
         data = random.choice(options)
         return cls(data["name"], data["hp"], data["topic"], data["difficulty"])
