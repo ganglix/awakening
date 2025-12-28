@@ -1,0 +1,352 @@
+[
+  {
+    "topic": "fractions",
+    "difficulty": 1,
+    "prompt": "What is 1/2 + 1/4?",
+    "choices": ["1/4", "3/4", "2/4", "1"],
+    "answer": "3/4"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 1,
+    "prompt": "Which fraction is equal to 2/4?",
+    "choices": ["1/2", "2/3", "3/4", "1/4"],
+    "answer": "1/2"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 1,
+    "prompt": "Which shows one third?",
+    "choices": ["1/2", "1/3", "2/3", "3/3"],
+    "answer": "1/3"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 2,
+    "prompt": "Which is equivalent to 3/6?",
+    "choices": ["1/2", "2/3", "3/5", "1/3"],
+    "answer": "1/2"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 2,
+    "prompt": "What is 1/3 + 1/3?",
+    "choices": ["1/3", "2/3", "3/3", "1"],
+    "answer": "2/3"
+  },
+  {
+    "topic": "fractions",
+    "difficulty": 3,
+    "prompt": "What is 3/4 - 1/4?",
+    "choices": ["1/4", "2/4", "1/2", "3/4"],
+    "answer": "1/2"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 1,
+    "prompt": "What is -3 + 5?",
+    "choices": ["-8", "2", "-2", "8"],
+    "answer": "2"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 1,
+    "prompt": "What is 4 + (-2)?",
+    "choices": ["-6", "2", "6", "-2"],
+    "answer": "2"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 2,
+    "prompt": "What is 6 - (-4)?",
+    "choices": ["2", "10", "-10", "-2"],
+    "answer": "10"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 2,
+    "prompt": "What is -7 + 9?",
+    "choices": ["-16", "2", "-2", "16"],
+    "answer": "2"
+  },
+  {
+    "topic": "integers",
+    "difficulty": 3,
+    "prompt": "What is -5 - 3?",
+    "choices": ["-8", "8", "-2", "2"],
+    "answer": "-8"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 1,
+    "prompt": "A push or pull on an object is called:",
+    "choices": ["mass", "force", "energy", "speed"],
+    "answer": "force"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 1,
+    "prompt": "Gravity pulls objects:",
+    "choices": ["upward", "toward Earth", "sideways", "away from Earth"],
+    "answer": "toward Earth"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 2,
+    "prompt": "Friction acts in what direction?",
+    "choices": ["With motion", "Opposite motion", "Upward", "Downward"],
+    "answer": "Opposite motion"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 2,
+    "prompt": "If you stop pushing a toy car, it slows because of:",
+    "choices": ["gravity", "friction", "magnetism", "light"],
+    "answer": "friction"
+  },
+  {
+    "topic": "forces",
+    "difficulty": 3,
+    "prompt": "A force that changes motion is called:",
+    "choices": ["balanced", "unbalanced", "equal", "still"],
+    "answer": "unbalanced"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 1,
+    "prompt": "What is 7 + 8?",
+    "choices": ["13", "15", "16", "17"],
+    "answer": "15"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 1,
+    "prompt": "What is 23 + 14?",
+    "choices": ["27", "37", "47", "57"],
+    "answer": "37"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 2,
+    "prompt": "What is 68 + 19?",
+    "choices": ["77", "87", "89", "97"],
+    "answer": "87"
+  },
+  {
+    "topic": "addition",
+    "difficulty": 3,
+    "prompt": "What is 125 + 48?",
+    "choices": ["163", "173", "183", "193"],
+    "answer": "173"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 1,
+    "prompt": "What is 15 - 7?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 1,
+    "prompt": "What is 40 - 12?",
+    "choices": ["18", "28", "30", "32"],
+    "answer": "28"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 2,
+    "prompt": "What is 73 - 28?",
+    "choices": ["35", "45", "55", "65"],
+    "answer": "45"
+  },
+  {
+    "topic": "subtraction",
+    "difficulty": 3,
+    "prompt": "What is 200 - 86?",
+    "choices": ["104", "114", "124", "134"],
+    "answer": "114"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 1,
+    "prompt": "What is 3 x 4?",
+    "choices": ["7", "12", "14", "16"],
+    "answer": "12"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 1,
+    "prompt": "What is 5 x 6?",
+    "choices": ["20", "25", "30", "35"],
+    "answer": "30"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 2,
+    "prompt": "What is 7 x 8?",
+    "choices": ["48", "54", "56", "64"],
+    "answer": "56"
+  },
+  {
+    "topic": "multiplication",
+    "difficulty": 3,
+    "prompt": "What is 9 x 7?",
+    "choices": ["56", "63", "72", "81"],
+    "answer": "63"
+  },
+  {
+    "topic": "division",
+    "difficulty": 1,
+    "prompt": "What is 12 divided by 3?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "topic": "division",
+    "difficulty": 2,
+    "prompt": "What is 18 divided by 6?",
+    "choices": ["2", "3", "4", "6"],
+    "answer": "3"
+  },
+  {
+    "topic": "division",
+    "difficulty": 2,
+    "prompt": "What is 20 divided by 5?",
+    "choices": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "topic": "division",
+    "difficulty": 3,
+    "prompt": "What is 45 divided by 9?",
+    "choices": ["4", "5", "6", "9"],
+    "answer": "5"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 1,
+    "prompt": "In 352, what digit is in the tens place?",
+    "choices": ["2", "3", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 1,
+    "prompt": "In 607, what is the value of the 6?",
+    "choices": ["6", "60", "600", "6000"],
+    "answer": "600"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 2,
+    "prompt": "Which number has a 4 in the hundreds place?",
+    "choices": ["340", "432", "243", "124"],
+    "answer": "432"
+  },
+  {
+    "topic": "place_value",
+    "difficulty": 3,
+    "prompt": "In 5,087, what is the value of the 8?",
+    "choices": ["8", "80", "800", "8000"],
+    "answer": "80"
+  },
+  {
+    "topic": "time",
+    "difficulty": 1,
+    "prompt": "What time is 30 minutes after 2:00?",
+    "choices": ["2:30", "3:00", "1:30", "2:15"],
+    "answer": "2:30"
+  },
+  {
+    "topic": "time",
+    "difficulty": 2,
+    "prompt": "How many minutes are in 2 hours?",
+    "choices": ["60", "90", "120", "180"],
+    "answer": "120"
+  },
+  {
+    "topic": "time",
+    "difficulty": 3,
+    "prompt": "What time is 45 minutes before 6:00?",
+    "choices": ["5:15", "5:30", "6:45", "4:45"],
+    "answer": "5:15"
+  },
+  {
+    "topic": "money",
+    "difficulty": 1,
+    "prompt": "Which is worth more?",
+    "choices": ["1 quarter", "2 dimes", "3 nickels", "4 pennies"],
+    "answer": "1 quarter"
+  },
+  {
+    "topic": "money",
+    "difficulty": 2,
+    "prompt": "You have 3 quarters. How much is that?",
+    "choices": ["$0.30", "$0.50", "$0.75", "$1.00"],
+    "answer": "$0.75"
+  },
+  {
+    "topic": "money",
+    "difficulty": 2,
+    "prompt": "If a pencil costs $0.45, how much is left from $1.00?",
+    "choices": ["$0.45", "$0.55", "$0.65", "$0.75"],
+    "answer": "$0.55"
+  },
+  {
+    "topic": "money",
+    "difficulty": 3,
+    "prompt": "Two items cost $1.20 and $0.35. Total cost is:",
+    "choices": ["$1.45", "$1.55", "$1.60", "$1.75"],
+    "answer": "$1.55"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 1,
+    "prompt": "How many sides does a triangle have?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 1,
+    "prompt": "A square has how many equal sides?",
+    "choices": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 2,
+    "prompt": "How many vertices does a rectangle have?",
+    "choices": ["2", "3", "4", "6"],
+    "answer": "4"
+  },
+  {
+    "topic": "geometry",
+    "difficulty": 3,
+    "prompt": "Which shape has 5 sides?",
+    "choices": ["triangle", "square", "pentagon", "hexagon"],
+    "answer": "pentagon"
+  },
+  {
+    "topic": "measurement",
+    "difficulty": 1,
+    "prompt": "Which unit is used to measure length?",
+    "choices": ["grams", "liters", "meters", "hours"],
+    "answer": "meters"
+  },
+  {
+    "topic": "measurement",
+    "difficulty": 2,
+    "prompt": "Which is heavier?",
+    "choices": ["1 kilogram", "100 grams", "1 meter", "1 liter"],
+    "answer": "1 kilogram"
+  },
+  {
+    "topic": "measurement",
+    "difficulty": 3,
+    "prompt": "How many centimeters are in 1 meter?",
+    "choices": ["10", "50", "100", "1000"],
+    "answer": "100"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "BlueDiamond",
+  "kp": 94,
+  "level": 4,
+  "hp": 8,
+  "coins": 15,
+  "location": "Town",
+  "active_quests": [
+    {
+      "name": "Fraction Focus",
+      "topic": "fractions",
+      "target": 5,
+      "correct_needed": 4,
+      "rewards": {
+        "kp": 6,
+        "coins": 3
+      },
+      "min_level": 1,
+      "attempts": 0,
+      "correct": 0
+    }
+  ]
+}

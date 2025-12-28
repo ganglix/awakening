@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Fraction Focus",
+    "topic": "fractions",
+    "target": 5,
+    "correct_needed": 4,
+    "rewards": {"kp": 6, "coins": 3},
+    "min_level": 1
+  },
+  {
+    "name": "Integer Explorer",
+    "topic": "integers",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 5, "coins": 4},
+    "min_level": 2
+  },
+  {
+    "name": "Forces Trial",
+    "topic": "forces",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 7, "coins": 5},
+    "min_level": 3
+  },
+  {
+    "name": "Addition Sprint",
+    "topic": "addition",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 4, "coins": 2},
+    "min_level": 1
+  },
+  {
+    "name": "Subtraction Trail",
+    "topic": "subtraction",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 4, "coins": 2},
+    "min_level": 1
+  },
+  {
+    "name": "Place Value Patrol",
+    "topic": "place_value",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 5, "coins": 3},
+    "min_level": 1
+  },
+  {
+    "name": "Multiplication Forge",
+    "topic": "multiplication",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 5, "coins": 3},
+    "min_level": 2
+  },
+  {
+    "name": "Division Circuit",
+    "topic": "division",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 5, "coins": 3},
+    "min_level": 2
+  },
+  {
+    "name": "Time Keeper",
+    "topic": "time",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 6, "coins": 3},
+    "min_level": 2
+  },
+  {
+    "name": "Money Matters",
+    "topic": "money",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 6, "coins": 3},
+    "min_level": 2
+  },
+  {
+    "name": "Geometry Scout",
+    "topic": "geometry",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 6, "coins": 3},
+    "min_level": 2
+  },
+  {
+    "name": "Measurement Mission",
+    "topic": "measurement",
+    "target": 4,
+    "correct_needed": 3,
+    "rewards": {"kp": 6, "coins": 3},
+    "min_level": 2
+  }
+]
